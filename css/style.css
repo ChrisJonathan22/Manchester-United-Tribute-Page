@@ -1,0 +1,109 @@
+/* Targeting every element on the page, removing the default padding and margin whilst also setting a font for every  element to follow. */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Styling for the container */
+#container {
+    height: auto;
+    background-color: lightgrey;
+    width: 98%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+}
+
+/* Styles for the title and subtitle */
+#title-holder h1 {
+    padding-bottom: 20px;
+    color: red;
+}
+
+#title-holder h3 {
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+/* Styling for the image container */
+#img-holder{
+    padding-top: 10px;
+    background-color: white;
+    height: auto;
+    width: 98%;
+    margin: auto;
+   
+}
+
+
+/* Styling for the image */
+
+#img-holder img {
+    padding-bottom: 10px;
+    max-width: 98%;
+    height: auto;
+    
+}
+
+/* Styling for the paragraph under the image */
+#img-holder p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+/* Styling for history container */
+#history {
+    padding-top: 50px;
+    margin: auto;
+    width: 78%;
+}
+
+/* Styling for the history title */
+#history h3 {
+    font-size: 20px;
+}
+
+/* Styling for the bullet points */
+ul li {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    
+}
+
+/* Styling for the history years in bold */
+#history span {
+    font-weight: bolder;
+}
+
+/* Styling for the quote from Cristiano Ronaldo */
+#history p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+/* Styling for Cristiano Ronaldo's name */
+#history h5 {
+    padding-bottom: 20px;
+}
+
+/* Styling for the link at the bottom of the page */
+#history a {
+    color: blue;
+    text-decoration: none;
+}
